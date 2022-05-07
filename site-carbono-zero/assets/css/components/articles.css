@@ -5,18 +5,20 @@
     background-position-x: 20em;
     background-repeat: no-repeat;
     min-height: 100vh;
+    overflow-y: hidden;
     width: 100%;
     position: relative;
 }
 .home_content .container h2.title_home{
     font-family: var(--roboto);
 }
+/*Last Desktop*/
 @media (min-width: 700px){
     .home_content{
-        background-size: 80%;
+        background-size: 70%;
         background-position-x: 20em;
         background-position-y: 94px;
-        min-height: 92.2vh;
+        min-height: 80vh;
     }
     .home_content .container{
         padding: 10em 0;
@@ -24,5 +26,21 @@
     .home_content .container h2.title_home{
         font-size: 3.6vw;
         width: 390px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .home_content{
+        background-size: 60%;
+        background-position-x: 36em;
+        background-position-y: 94px;
+        min-height: 88vh;
+    }
+    .home_content .container{
+        padding: 125px 0;
+    }
+    .home_content .container h2.title_home{
+        font-size: 3vw;
+        width: 400px;
     }
 }

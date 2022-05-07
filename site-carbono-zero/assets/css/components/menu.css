@@ -13,6 +13,9 @@
     font-family: var(--roboto);
     width: 20%;
 }
+.logo h1 a{
+    color: #a4d932;
+}
 .responsive_menu{
     display: block;
 }
@@ -47,6 +50,26 @@
     }
     .links li a{
         font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 700px){
+    .responsive_menu{
+        display: none;
+    }
+    .logo{
+        font-size: 2vw;
+    }
+    .links{
+        display: block;
+        min-width: 500px;
+    }
+    .links li{
+        display: inline;
+    }
+    .links li a{
+        font-size: 18px;
         font-weight: 500;
     }
 }
