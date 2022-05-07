@@ -1,0 +1,30 @@
+.menu_topo{
+    background-color: transparent;
+    width: 100%;
+}
+.container_menu{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+}
+.responsive_menu{
+    display: block;
+}
+.links{
+    display: none;
+}
+
+/*Last desktop*/
+@media (min-width: 700px){
+    .container_menu{
+        display: none;
+    }
+    .links{
+        display: block;
+        min-width: 700px;
+    }
+}
