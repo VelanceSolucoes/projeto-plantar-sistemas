@@ -1,3 +1,6 @@
+@import url(./components/fonts.css);
 @import url(./components/reset.css);
 @import url(./components/grids.css);
 @import url(./components/menu.css);
+@import url(./components/sections.css);
+@import url(./components/articles.css);
